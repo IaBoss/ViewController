@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
++(void)initialize;
+-(instancetype)init;
 
 
+
+- (void) viewDidLoad;
 @end
+
 
