@@ -11,10 +11,19 @@
 @interface ViewController : UIViewController
 +(void)initialize;
 -(instancetype)init;
-
-
-
-- (void) viewDidLoad;
+-(instancetype)initWithCoder:(NSCoder *)coder;
+-(void)awakeFromNib;
+-(void)loadView;
+-(void)viewDidLoad;
+-(void)viewWillLayoutSubviews;
+-(void)viewDidLayoutSubviews;
+-(void)didReceiveMemoryWarning;
+-(void)viewDidAppear:(BOOL)animated;
+-(void)viewWillAppear:(BOOL)animated;
+-(void)viewWillDisappear:(BOOL)animated;
+-(void)viewDidDisappear:(BOOL)animated;
+-(void)didReceiveMemoryWarning;
+-(void)dealloc;
 @end
 
 

@@ -70,7 +70,7 @@ int tip = 0;
     NSLog( @ " %d didReceiveMemoryWarning",++tip);
 }
 
-/*- (void)viewWillAppear:(BOOL)animated{
+- (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:<#animated#>];
     NSLog(@ "%d viewWillAppear",++tip );
 }
@@ -80,7 +80,7 @@ int tip = 0;
     NSLog(@ " %d viewDidAppear",++tip);
 }
 
-- (void)viewWillDisppear:(BOOL)animated{
+- (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     NSLog(@ "%d viewWillDisappear",++tip );
 }
@@ -89,7 +89,7 @@ int tip = 0;
     [super viewDidDisappear:<#animated#>];
     NSLog(@ "%d viewDidDisappear",++tip);
 }
-*/
+
 - (void)dealloc{
     NSLog(@ " %d dealloc",++tip);
 }
