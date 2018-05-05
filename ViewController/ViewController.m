@@ -86,7 +86,7 @@ int tip = 0;
 }
 
 - (void)viewDidDisappear:(BOOL)animated{
-    [super viewDidDisappear:<#animated#>];
+    [super viewDidDisappear:<#animated#>];{}
     NSLog(@ "%d viewDidDisappear",++tip);
 }
 
